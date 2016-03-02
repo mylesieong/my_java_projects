@@ -1,0 +1,102 @@
+html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: Arial;
+    vertical-align: baseline
+}
+
+body {
+    word-wrap: break-word;
+    background-color: #fff;
+    color: #494949;
+    FONT-FAMILY: arial, Tahoma, verdana, helvetica, sans-serif;
+    font-size: 12px
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    top: 0px;
+}
+
+img#logo{
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    padding: 2.5em;
+}
+
+div#ballet{
+   position: relative;
+   width: 100%;
+   height: 100%;       
+   //background-image: URL(../anna_files/bg.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;      
+ 
+}
+
+div#ballet-sidebar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 25%;
+}
+
+div.category{
+    padding-left: 150px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+div.brand{
+    padding-right: 50px;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+
+div#ballet-content{
+    margin-left: 25%;
+    top: 0px;
+    padding: 50px;
+    width: 75%;
+}
+
+div.cigar{
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    background-image: url(../anna_files/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.cigar-txt{
+    position: absolute;
+    top: 120px;
+    font-size:x-large;
+}
+
+div.cigar-dsc{
+    position: absolute;
+    top: 160px; 
+    width: 200px;
+    font-size: large;
+}
